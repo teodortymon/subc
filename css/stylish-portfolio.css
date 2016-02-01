@@ -7,6 +7,45 @@
 /* Global Styles */
 
 
+@font-face {
+    font-family: 'kth_rodd';
+    src:    url('../fonts/kth_rodd.eot?ez7o9g');
+    src:    url('../fonts/kth_rodd.eot?ez7o9g#iefix') format('embedded-opentype'),
+        url('../fonts/kth_rodd.ttf?ez7o9g') format('truetype'),
+        url('../fonts/kth_rodd.woff?ez7o9g') format('woff'),
+        url('../fonts/kth_rodd.svg?ez7o9g#kth_rodd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'kth_rodd' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.trophy:before {
+    content: "\e900";
+}
+.international:before {
+    content: "\e901";
+}
+.party:before {
+    content: "\e902";
+}
+.bicep:before {
+    content: "\e903";
+}
+
 
 
 
@@ -318,3 +357,8 @@ figure a.close-caption.hidden {
 #effect-2 figure.hover figcaption {
     transform: rotateY(0);
 }
+
+
+
+
+
